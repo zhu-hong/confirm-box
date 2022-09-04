@@ -10,6 +10,7 @@ import _ConfirmBoxVue from './ConfirmBox.vue'
  * @param { string } config.confirmText
  * @param { string } config.cancelText
  * @param { string } config.fill
+ * @param { string } config.showClose
  * @param { string } config.width
  * @param { string } config.top
  * @param { string } config.modal

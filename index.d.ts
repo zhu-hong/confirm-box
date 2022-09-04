@@ -16,7 +16,7 @@ interface IConfirmBoxConfig {
   isDanger: boolean
   /**
    * @default true
-   * @description 是否显示取消按钮
+   * @description 显示取消按钮
    */
   showCancel: boolean
   /**
@@ -35,6 +35,11 @@ interface IConfirmBoxConfig {
    */
   fill: string
   /**
+   * @default false
+   * @description 显示关闭按钮
+   */
+  showClose: boolean,
+  /**
    * @default '440px'
    * @description 确认框宽度
    */
@@ -46,7 +51,7 @@ interface IConfirmBoxConfig {
   top: string
   /**
    * @default true
-   * @description 是否显示遮罩层
+   * @description 显示遮罩层
    */
   modal: boolean
 }
