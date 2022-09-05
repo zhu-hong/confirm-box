@@ -58,4 +58,6 @@ interface IConfirmBoxConfig {
 
 declare function useConfirmBox(config: IConfirmBoxConfig): Promise<string>
 
-export default useConfirmBox
+export {
+  useConfirmBox
+}
