@@ -1,6 +1,6 @@
 {
   "name": "@zhu-hong/confirm-box",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "sideEffects": false,
   "files": [
@@ -26,9 +26,11 @@
   },
   "dependencies": {
     "element-ui": "2.15.8",
-    "vue": "2.6.14"
+    "vue": "2.7.10"
   },
-  "keywords": ["functional-dialog"],
+  "keywords": [
+    "functional-dialog"
+  ],
   "author": "zhu-hong",
   "license": "MIT"
 }
