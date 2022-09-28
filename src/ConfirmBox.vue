@@ -94,7 +94,7 @@ export default {
       <span class="zh-confirmbox-header-text">{{ title }}</span>
       <svg @click="useDestroy" v-show="showClose" class="zh-confirmbox-header-close" width="24px" height="24px" xmlns="http://www.w3.org/2000/svg"><path d="M17.071 2.929a.833.833 0 0 1 0 1.178L11.18 10l5.892 5.893a.833.833 0 0 1-1.178 1.178L10 11.18l-5.893 5.89a.833.833 0 0 1-1.178-1.178l5.893-5.894L2.93 4.107A.833.833 0 1 1 4.107 2.93l5.894 5.892 5.892-5.892a.833.833 0 0 1 1.178 0Z" fill="#646A73" fill-rule="evenodd"/></svg>
     </div>
-    <pre class="zh-confirmbox-content">{{ content }}</pre>
+    <div class="zh-confirmbox-content" v-html="content"></div>
     <div class="zh-confirmbox-footer">
       <el-button @click="useReject" size="small" v-show="showCancel">{{ cancelText }}</el-button>
       <el-button @click="useResolve" size="small" :type="isDanger ? 'danger' : 'primary'">{{ confirmText }}</el-button>
@@ -139,7 +139,6 @@ export default {
   &-content {
     margin: 16px 0 24px 40px;
     font-size: 14px;
-    white-space: pre-wrap;
   }
   &-footer {
     display: flex;
