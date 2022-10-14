@@ -60,7 +60,7 @@ interface IConfirmBoxConfig {
    */
   width: string
   /**
-   * @default '15vh
+   * @default '25vh'
    * @description 确认框距离顶部的距离
    */
   top: string
