@@ -41,7 +41,7 @@ export default {
     },
     top: {
       type: String,
-      default: '55vh',
+      default: '25vh',
     },
     modal: {
       type: Boolean,
